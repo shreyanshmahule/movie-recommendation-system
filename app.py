@@ -104,8 +104,9 @@ h1, h3 {
 """, unsafe_allow_html=True)
 
 # -------------------- HEADER --------------------
-st.markdown("<h1>🎥 Movie Recommendation System</h1>", unsafe_allow_html=True)
-st.markdown("<h3>Find your next favorite movie — Powered by Machine Learning</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-size: 4rem; font-weight: bold; margin-bottom: 0.5rem;'>CineVerse</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; font-size: 1.5rem; margin-top: 0; margin-bottom: 1rem;'>🎥 Movie Recommendation System</h2>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Find your next favorite movie — Powered by Machine Learning</h3>", unsafe_allow_html=True)
 st.write("")
 
 # -------------------- INPUT --------------------
